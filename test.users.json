@@ -1,12 +1,4 @@
-[
-{
-  "_id": {
-    "$oid": "661e48a13570bc1f89fdbad6"
-  },
-  "email": "ishu11@admin.com",
-  "name": "Ishrat",
-  "password": "$2b$12$TSJdnppRhfDwHXpDqIsta.bLR/ZyU7tyFQuaGPrSHGw6QsJ4YzNT2",
-  "role": "superadmin",
-  "refundedPatients": [],
-  "__v": 0
-}]
+# MONGODB_SECRET_KEY="mongodb://localhost:27017/AdminPanel"
+MONGODB_SECRET_KEY="mongodb+srv://Ishuu:Abbasii@cluster0.zew3sw7.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0/AdminPanel"
+JWT_SECRET_STRING= "somesupersecretkey"
+
